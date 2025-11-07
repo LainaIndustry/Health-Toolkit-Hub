@@ -1,0 +1,193 @@
+/* Result Cards */
+.result-card {
+    background: var(--white);
+    padding: var(--card-padding);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-lg);
+    margin-top: 2rem;
+}
+
+.result-card h3 {
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Calorie Summary */
+.calorie-summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.calorie-item {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    background: var(--light-bg);
+}
+
+.calorie-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin: 0.5rem 0;
+}
+
+.calorie-item small {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+/* Macro Summary */
+.macro-summary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.macro-item {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+}
+
+.macro-item.protein {
+    background: rgba(76, 175, 80, 0.1);
+    border: 2px solid rgba(76, 175, 80, 0.3);
+}
+
+.macro-item.carbs {
+    background: rgba(33, 150, 243, 0.1);
+    border: 2px solid rgba(33, 150, 243, 0.3);
+}
+
+.macro-item.fat {
+    background: rgba(255, 152, 0, 0.1);
+    border: 2px solid rgba(255, 152, 0, 0.3);
+}
+
+.macro-amount {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.macro-item.protein .macro-amount { color: var(--primary-color); }
+.macro-item.carbs .macro-amount { color: var(--secondary-color); }
+.macro-item.fat .macro-amount { color: var(--accent-color); }
+
+.macro-percent {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+/* Macro Chart */
+.macro-chart {
+    margin: 2rem 0;
+}
+
+.chart-bar {
+    height: 40px;
+    background: var(--light-bg);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+
+.chart-segment {
+    height: 100%;
+    transition: width 0.5s ease;
+}
+
+.chart-segment.protein { background: var(--primary-color); }
+.chart-segment.carbs { background: var(--secondary-color); }
+.chart-segment.fat { background: var(--accent-color); }
+
+/* BMI Chart */
+.bmi-chart {
+    margin: 1.5rem 0;
+}
+
+.bmi-bar {
+    height: 30px;
+    background: linear-gradient(90deg, #2196F3, #4CAF50, #FF9800, #f44336);
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.bmi-indicator {
+    position: absolute;
+    top: -5px;
+    width: 3px;
+    height: 40px;
+    background: #333;
+    transform: translateX(-50%);
+}
+
+.bmi-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--text-light);
+}
+
+/* Meal Planning */
+.meal-plan-suggestion {
+    background: var(--light-bg);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    margin: 1.5rem 0;
+}
+
+.meal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.meal-item {
+    background: var(--white);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+/* Error and Success Messages */
+.error-message {
+    background: #ffebee;
+    color: #c62828;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    border-left: 4px solid #f44336;
+    margin: 1rem 0;
+}
+
+.success-message {
+    background: #e8f5e8;
+    color: #2e7d32;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    border-left: 4px solid #4CAF50;
+    margin: 1rem 0;
+}
+
+/* Sleep Quality Indicators */
+.sleep-quality.excellent {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.sleep-quality.good {
+    color: #FF9800;
+    font-weight: bold;
+}
+
+.sleep-quality.poor {
+    color: #f44336;
+    font-weight: bold;
+}
