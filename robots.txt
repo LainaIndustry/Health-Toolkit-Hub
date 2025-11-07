@@ -1,1 +1,11 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Block AI crawlers if desired
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
