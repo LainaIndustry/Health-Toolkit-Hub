@@ -1,0 +1,30 @@
+:root {
+    /* Colors */
+    --primary-color: #4CAF50;
+    --secondary-color: #2196F3;
+    --accent-color: #FF9800;
+    --danger-color: #f44336;
+    --warning-color: #ffc107;
+    
+    /* Text Colors */
+    --text-color: #333;
+    --text-light: #666;
+    --text-lighter: #999;
+    
+    /* Background Colors */
+    --light-bg: #f8f9fa;
+    --white: #ffffff;
+    --dark-bg: #333;
+    
+    /* Spacing */
+    --section-padding: 4rem 5%;
+    --card-padding: 2rem;
+    
+    /* Shadows */
+    --shadow: 0 2px 10px rgba(0,0,0,0.1);
+    --shadow-lg: 0 5px 20px rgba(0,0,0,0.15);
+    
+    /* Borders */
+    --border-radius: 8px;
+    --border-radius-lg: 12px;
+}
