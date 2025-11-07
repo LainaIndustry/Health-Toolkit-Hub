@@ -3,20 +3,68 @@
     {
       "slug": "sleep-calculator",
       "name": "Sleep Calculator",
-      "description": "Calculate your sleep cycles and optimal bedtime",
+      "description": "Calculate your optimal bedtime and wake-up time based on sleep cycles",
       "category": "wellness",
       "icon": "sleep-icon.svg",
       "featured": true,
-      "keywords": ["sleep", "bedtime", "wake up", "sleep cycles"]
+      "usage": "25k+/month",
+      "keywords": ["sleep", "bedtime", "wake up", "sleep cycles", "rest"],
+      "formula": "90-minute sleep cycles"
+    },
+    {
+      "slug": "bmi-calculator", 
+      "name": "BMI Calculator",
+      "description": "Calculate your Body Mass Index and understand your weight category",
+      "category": "health",
+      "icon": "bmi-icon.svg",
+      "featured": true,
+      "usage": "18k+/month",
+      "keywords": ["bmi", "weight", "height", "body mass", "health"],
+      "formula": "weight (kg) / height (m)²"
     },
     {
       "slug": "calorie-calculator",
       "name": "Calorie Calculator",
-      "description": "Calculate your daily calorie needs for weight goals",
+      "description": "Calculate your daily calorie needs for weight loss or muscle gain",
       "category": "nutrition",
-      "icon": "calorie-calc-icon.svg",
+      "icon": "calorie-icon.svg",
       "featured": true,
-      "keywords": ["calories", "weight loss", "nutrition", "diet"]
+      "usage": "22k+/month", 
+      "keywords": ["calories", "weight loss", "nutrition", "diet", "maintenance"],
+      "formula": "Mifflin-St Jeor Equation"
+    },
+    {
+      "slug": "macro-calculator",
+      "name": "Macro Calculator",
+      "description": "Calculate your ideal macronutrient ratios for your fitness goals",
+      "category": "nutrition",
+      "icon": "macro-icon.svg",
+      "featured": false,
+      "usage": "15k+/month",
+      "keywords": ["macros", "protein", "carbs", "fat", "nutrition"],
+      "formula": "Goal-based ratios"
+    },
+    {
+      "slug": "water-intake-calculator",
+      "name": "Water Intake Calculator",
+      "description": "Calculate your daily water needs based on weight and activity level",
+      "category": "health", 
+      "icon": "water-icon.svg",
+      "featured": false,
+      "usage": "12k+/month",
+      "keywords": ["water", "hydration", "intake", "health"],
+      "formula": "Weight-based calculation"
+    },
+    {
+      "slug": "body-fat-calculator",
+      "name": "Body Fat Calculator",
+      "description": "Estimate your body fat percentage using various methods",
+      "category": "fitness",
+      "icon": "bodyfat-icon.svg", 
+      "featured": false,
+      "usage": "10k+/month",
+      "keywords": ["body fat", "percentage", "measurement", "fitness"],
+      "formula": "US Navy Method"
     }
   ]
 }
