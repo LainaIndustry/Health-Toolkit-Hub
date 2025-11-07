@@ -1,0 +1,22 @@
+{
+  "tools": [
+    {
+      "slug": "sleep-calculator",
+      "name": "Sleep Calculator",
+      "description": "Calculate your sleep cycles and optimal bedtime",
+      "category": "wellness",
+      "icon": "sleep-icon.svg",
+      "featured": true,
+      "keywords": ["sleep", "bedtime", "wake up", "sleep cycles"]
+    },
+    {
+      "slug": "calorie-calculator",
+      "name": "Calorie Calculator",
+      "description": "Calculate your daily calorie needs for weight goals",
+      "category": "nutrition",
+      "icon": "calorie-calc-icon.svg",
+      "featured": true,
+      "keywords": ["calories", "weight loss", "nutrition", "diet"]
+    }
+  ]
+}
