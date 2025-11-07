@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health & Fitness Blog - Expert Advice & Tips | Health Toolkit</title>
+    <meta name="description" content="Read our expert health, fitness, and wellness blog. Get tips on nutrition, workouts, sleep, and mental health from certified professionals.">
+    <link rel="stylesheet" href="../css/style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="main-header"></header>
 
+    <main class="blog-listing">
+        <div class="container">
+            <h1>Health & Fitness Blog</h1>
+            <p class="subtitle">Expert advice, tips, and guides to help you achieve your health goals</p>
+
+            <!-- Category Filters -->
+            <div class="blog-filters">
+                <button class="filter-btn active" data-filter="all">All Topics</button>
+                <button class="filter-btn" data-filter="nutrition">Nutrition</button>
+                <button class="filter-btn" data-filter="fitness">Fitness</button>
+                <button class="filter-btn" data-filter="wellness">Wellness</button>
+                <button class="filter-btn" data-filter="reviews">Product Reviews</button>
+            </div>
+
+            <!-- Blog Grid -->
+            <div class="blog-grid" id="blog-grid">
+                <!-- Blog posts will be loaded dynamically -->
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-container">
+                <button id="load-more" class="btn btn-secondary">Load More Articles</button>
+            </div>
+        </div>
+    </main>
+
+    <footer id="main-footer"></footer>
+
+    <script src="../js/utils/helpers.js"></script>
+    <script src="../js/components/blog-loader.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
