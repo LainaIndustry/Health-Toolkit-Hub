@@ -1,0 +1,32 @@
+/* Import all component CSS */
+@import url('components/header.css');
+@import url('components/footer.css');
+@import url('components/tools.css');
+@import url('components/blog.css');
+@import url('components/ads.css');
+@import url('utils/variables.css');
+@import url('utils/utilities.css');
+@import url('utils/responsive.css');
+
+/* Base Styles */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #2196F3;
+    --accent-color: #FF9800;
+    --text-color: #333;
+    --light-bg: #f8f9fa;
+    --white: #ffffff;
+    --shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+}
